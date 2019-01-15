@@ -10,12 +10,12 @@ class Scraper
     binding.pry
   end
 
-  def get_courses
-
-  end
-
-  def make_courses
-  end
+  # def get_courses
+  #
+  # end
+  #
+  # def make_courses
+  # end
 
     def print_courses
     self.make_courses
@@ -29,3 +29,4 @@ class Scraper
   end
 
 end
+Scraper.new.get_page
