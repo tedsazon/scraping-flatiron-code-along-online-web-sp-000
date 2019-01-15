@@ -3,7 +3,9 @@ class Course
 
   @@all = []
 
-  def
+  def self.all
+    @@all
+  end
 
 
 
